@@ -1,13 +1,15 @@
 ////https://github.com/sunil9813/Real-estate-website 
 import './App.css';
-import Page from './components/pages/Page';
+import Pages from './components/pages/Pages';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-     <Page />
-      </header>
+      <Pages />
+    
+   
     </div>
   );
 }

@@ -1,0 +1,70 @@
+.heardes-info{
+    background-color: whitesmoke;
+    height: 10vh;
+    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+    position:sticky;
+    padding: 15px 0;
+    top: 0;
+    z-index: 99999;
+}
+.icon-logo{
+ color: rgb(59, 112, 109);   
+ font-size: 30px;
+}
+.container-btn {
+    margin-left: 100px;
+}
+.cross-logo{
+    font-size: 30px;
+    background-color:rgb(59, 112, 109);  
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.heardes-info a {
+    margin-left: 30px;
+    transition: 0.5s;
+    font-weight: 500;
+}
+.singin-btn{
+    border-radius: 5px;
+    padding: 10px;
+    background-color:  rgb(59, 112, 109);  
+    color: aliceblue;
+}
+.heardes-info .toggle{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .heardes-info{
+        padding: 0;
+    } 
+    .toggle {
+        display: block;
+      }
+    .heardes-info .singin-btn{
+        margin-right: 70px;
+    }
+    .nav-header .flex {
+        display: none;
+    }
+    .heardes-info .toggle{
+        display: block;
+    margin-top: 20px;
+    }
+    .heardes-info .small{
+        position:relative;
+        text-align: center;
+        top: 20vh;
+        width: 100%;
+    }
+    .heardes-info ul a {
+        display: inline-block;
+        margin-bottom: 20px;
+        color:  rgb(59, 112, 109); ;
+        
+      }
+  
+}

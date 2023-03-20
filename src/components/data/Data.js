@@ -1,3 +1,4 @@
+
 export const nav = [
     {
       text: "home",
@@ -26,27 +27,27 @@ export const nav = [
   ]
   export const featured = [
     {
-      cover: "../images/hero/h1.png",
+      icon: <i className="fa fa-home"></i>,
       name: "Family House",
       total: "122 Property",
     },
     {
-      cover: "../images/hero/h2.png",
+      icon: <i className="fa fa-home"></i>,
       name: "House & Villa",
       total: "155 Property",
     },
     {
-      cover: "../images/hero/h3.png",
+      icon: <i className="fa fa-home"></i>,
       name: "Apartment",
       total: "300 Property",
     },
     {
-      cover: "../images/hero/h4.png",
+      icon: <i className="fa fa-home"></i>,
       name: "Office & Studio",
       total: "80 Property",
     },
     {
-      cover: "../images/hero/h6.png",
+      icon: <i className="fa fa-home"></i>,
       name: "Villa & Condo",
       total: "80 Property",
     },
@@ -54,7 +55,7 @@ export const nav = [
   export const list = [
     {
       id: 1,
-      cover: "../images/list/p-1.png",
+      cover: "https://images.unsplash.com/photo-1615874694520-474822394e73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
       name: "Red Carpet Real Estate",
       location: "210 Zirak Road, Canada",
       category: "For Rent",
@@ -63,7 +64,7 @@ export const nav = [
     },
     {
       id: 2,
-      cover: "../images/list/p-2.png",
+      cover: "https://images.unsplash.com/photo-1633505412556-82c0921e8f4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1529&q=80",
       name: "Fairmount Properties",
       location: "5698 Zirak Road, NewYork",
       category: "For Sale",
@@ -72,7 +73,7 @@ export const nav = [
     },
     {
       id: 3,
-      cover: "../images/list/p-7.png",
+      cover: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       name: "The Real Estate Corner",
       location: "5624 Mooker Market, USA",
       category: "For Rent",
@@ -81,7 +82,7 @@ export const nav = [
     },
     {
       id: 4,
-      cover: "../images/list/p-4.png",
+      cover: "https://images.unsplash.com/photo-1632210370137-4088c0e38de6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
       name: "Herringbone Realty",
       location: "5621 Liverpool, London",
       category: "For Sale",
@@ -90,7 +91,7 @@ export const nav = [
     },
     {
       id: 5,
-      cover: "../images/list/p-5.png",
+      cover: "https://images.unsplash.com/photo-1618222104927-33e0bd5f8dae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
       name: "Brick Lane Realty",
       location: "210 Montreal Road, Canada",
       category: "For Rent",
@@ -99,7 +100,7 @@ export const nav = [
     },
     {
       id: 6,
-      cover: "../images/list/p-6.png",
+      cover: "https://images.unsplash.com/photo-1631510211190-a41d06ea835a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1092&q=80",
       name: "Banyon Tree Realty",
       location: "210 Zirak Road, Canada",
       category: "For Sale",

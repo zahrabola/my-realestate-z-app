@@ -1,8 +1,9 @@
 
-const Heading = () => {
+const Heading = ({title, subtitle}) => {
     return (
-        <div>
-            heading title sub title
+        <div className="heading">
+           <h1>{title}</h1>
+           <p>{subtitle}</p>
         </div>
     )
 }

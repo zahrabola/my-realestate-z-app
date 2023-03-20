@@ -10,6 +10,7 @@
 .icon-logo{
  color: rgb(59, 112, 109);   
  font-size: 30px;
+ 
 }
 .container-btn {
     margin-left: 100px;
@@ -20,6 +21,7 @@
     color: aliceblue;
     padding: 5px;
     border-radius: 5px;
+   border: #fff;
 }
 .heardes-info a {
     margin-left: 30px;
@@ -31,6 +33,7 @@
     padding: 10px;
     background-color:  rgb(59, 112, 109);  
     color: aliceblue;
+    border: #fff;
 }
 .heardes-info .toggle{
     display: none;
@@ -47,24 +50,27 @@
     .heardes-info .singin-btn{
         margin-right: 70px;
     }
-    .nav-header .flex {
+    .nav-header  .flex {
         display: none;
     }
     .heardes-info .toggle{
         display: block;
     margin-top: 20px;
+    
     }
     .heardes-info .small{
-        position:relative;
-        text-align: center;
-        top: 20vh;
-        width: 100%;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+        
     }
     .heardes-info ul a {
         display: inline-block;
         margin-bottom: 20px;
         color:  rgb(59, 112, 109); ;
-        
       }
   
 }

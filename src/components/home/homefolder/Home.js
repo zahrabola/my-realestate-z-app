@@ -1,10 +1,12 @@
+import Featured from "../featured/Featured"
+import Hero from "../hero/Hero"
 
 
 const Home = () => {
     return(
         <div>
-            hero
-            featured
+           <Hero />
+            <Featured />
             recent
             awards
             location

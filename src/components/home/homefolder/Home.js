@@ -1,5 +1,6 @@
 import Featured from "../featured/Featured"
 import Hero from "../hero/Hero"
+import Recent from "../recent/Recent"
 
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
         <div>
            <Hero />
             <Featured />
-            recent
+            <Recent/>
             awards
             location
             team

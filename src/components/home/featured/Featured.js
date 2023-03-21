@@ -1,6 +1,6 @@
 import React from "react"
 import FeaturedCard from "./FeaturedCard"
-import "./FeaturedCard"
+import "./featured.css"
 import Heading from "../../common/Heading"
 const Featured = () => {
     return (

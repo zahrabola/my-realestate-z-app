@@ -1,0 +1,25 @@
+.recent .text {
+    padding: 30px;
+  }
+  .recent .recent-category  span{
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+  }
+   .icon-recent{
+    font-size: 20px;
+  
+  }
+
+  #img-recent{
+    border-radius: 5px;
+    height: 300px;   
+  }
+  .box-recent{
+    margin-bottom: 30px;
+  }
+  .btn-recent{
+    padding: 20px;
+  }

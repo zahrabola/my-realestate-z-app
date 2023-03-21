@@ -1,0 +1,10 @@
+.awards {
+    background-color: rgba(59, 112, 109, 0.247);
+    color: #fff;
+    text-align: center;
+  }
+  .awards .heading {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+

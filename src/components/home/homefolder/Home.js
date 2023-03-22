@@ -3,6 +3,7 @@ import Featured from "../featured/Featured"
 import Hero from "../hero/Hero"
 import Location from "../location/Location"
 import Recent from "../recent/Recent"
+import Team from "../team/Team"
 
 
 const Home = () => {
@@ -11,10 +12,9 @@ const Home = () => {
            <Hero />
             <Featured />
             <Recent/>
-            <Awards />
-       
+            <Awards />      
            <Location/>
-            team
+            <Team/>
             price
         </div>
     )

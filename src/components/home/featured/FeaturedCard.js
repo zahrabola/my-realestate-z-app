@@ -20,4 +20,3 @@ const FeaturedCard = () => {
 };
 
 export default FeaturedCard
- 

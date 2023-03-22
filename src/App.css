@@ -94,7 +94,7 @@ label {
     height: 30vh;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   .grid3,
   .grid4,
   .grid5 {

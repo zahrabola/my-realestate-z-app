@@ -1,0 +1,36 @@
+.location .box {
+    position: relative;
+    border-radius: 5px;
+  }
+  .location img {
+    border-radius: 5px;
+    height: 300px;
+  }
+  .location h5 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .location label {
+    color: #f1f1f1;
+    margin-right: 20px;
+    opacity: 0.8;
+  }
+  .location-overlay{
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .box:hover  .location-overlay{
+    opacity: 1;
+  }

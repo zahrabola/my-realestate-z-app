@@ -1,6 +1,7 @@
 import { list } from "../../data/Data";
 import { useState } from "react";
 import Heart from "react-heart";
+import Image from 'react-bootstrap/Image'
 
 const RecentCard = () => {
   const [active, setActive] = useState(false);
@@ -13,12 +14,9 @@ const RecentCard = () => {
           return (
             <div className="box box-recent shadow" key={i}>
               <div className="image-recent">
-                <img
-                  src={cover}
-                  alt="/"
+              <Image src={cover} alt="/" responsive="true" 
                   id="img-recent"
-                  className="img-fluid shadow-4"
-                />
+                  className="img-fluid shadow-4" />
               </div>
               <div className="text">
                 <div className="recent-category flex">

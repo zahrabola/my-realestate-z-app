@@ -9,7 +9,7 @@ const Awards = () => {
            <Heading title='Over 1,24,000+ Happy User Bieng With Us Still They Love Our Services' subtitle='Our Awards' />
            <div className="content grid4 mtop">
             {awards.map((value,i) => (
-                  <div className="box" key={i}>
+                  <div className= "box" key={i}>
                   <div className="award-icon icon-logo">
                     <span>{value.icon}</span>
                   </div>

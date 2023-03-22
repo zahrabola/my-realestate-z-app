@@ -231,19 +231,19 @@ export const nav = [
       ptext: "per user, per month",
       list: [
         {
-          icon: <i  className='fa-solid fa-check'></i>,
+          icon: <i  className='fa fa-check'></i>,
           text: "99.5% Uptime Guarantee",
         },
         {
-          icon: <i  className='fa-solid fa-check'></i>,
+          icon: <i  className='fa fa-check'></i>,
           text: "120GB CDN Bandwidth",
         },
         {
-          icon: <i  className='fa-solid fa-check'></i>,
+          icon: <i  className='fa fa-check'></i>,
           text: "5GB Cloud Storage",
         },
-        { change: "color", icon: <i  className='fa-solid fa-x'></i>, text: "Personal Help Support" },
-        { change: "color", icon: <i  className='fa-solid fa-x'></i>, text: "Enterprise SLA" },
+        { change: "color", icon: <i  className='fa fa-close'></i>, text: "Personal Help Support" },
+        { change: "color", icon: <i  className='fa fa-close'></i>, text: "Enterprise SLA" },
       ],
     },
     {
@@ -253,24 +253,24 @@ export const nav = [
       ptext: "per user, per month",
       list: [
         {
-          icon: <i className='fa-solid fa-check'></i>,
+          icon: <i className='fa fa-check'></i>,
           text: "99.5% Uptime Guarantee",
         },
         {
-          icon: <i  className='fa-solid fa-check'></i>,
+          icon: <i  className='fa fa-check'></i>,
           text: "150GB CDN Bandwidth",
         },
         {
-          icon: <i  className='fa-solid fa-check'></i>,
+          icon: <i  className='fa fa-check'></i>,
           text: "10GB Cloud Storage",
         },
         {
-          icon: <i  className='fa-solid fa-check'></i>,
+          icon: <i  className='fa fa-check'></i>,
           text: "Personal Help Support",
         },
         {
           change: "color",
-          icon: <i  className='fa-solid fa-x'></i>,
+          icon: <i  className='fa fa-close'></i>,
           text: "Enterprise SLA",
         },
       ],
@@ -281,23 +281,23 @@ export const nav = [
       ptext: "2 user, per month",
       list: [
         {
-          icon: <i  className='fa-solid fa-check'></i>,
+          icon: <i  className='fa fa-check'></i>,
           text: "100% Uptime Guarantee",
         },
         {
-          icon: <i  className='fa-solid fa-check'></i>,
+          icon: <i  className='fa  fa-check'></i>,
           text: "200GB CDN Bandwidth",
         },
         {
-          icon: <i  className='fa-solid fa-check'></i>,
+          icon: <i  className='fa fa-check'></i>,
           text: "20GB Cloud Storage",
         },
         {
-          icon: <i  className='fa-solid fa-check'></i>,
+          icon: <i  className='fa fa-check'></i>,
           text: "Personal Help Support",
         },
         {
-          icon: <i  className='fa-solid fa-check'></i>,
+          icon: <i  className='fa fa-check'></i>,
           text: "Enterprise SLA",
         },
       ],

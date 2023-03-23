@@ -16,10 +16,10 @@ const PriceCard = () => {
           <p>{item.ptext}</p>
 
           <ul>
-            {item.list.map((value) => {
+            {item.list.map((value, i) => {
               const { icon, text, change } = value;
               return (
-                <li>
+                <li key={i}>
                   <label
                     style={{
                       background:

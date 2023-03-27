@@ -11,7 +11,7 @@ const About = () => {
       <section className="about">
         <Back name="About Us" title="About Us - Who we are?" cover={img} />
         <div className="container flex mtop">
-          <div className="left-about  row">
+          <div className="left-about row">
             <Heading
               title="Our Agency Story"
               subtitle=" Check out our country story and work process"
@@ -22,7 +22,13 @@ const About = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <br/>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -32,7 +38,7 @@ const About = () => {
             <button className="btn-search sub-btn">More About Us</button>
           </div>
           <div className="right-about row">
-          <Image src={img2} alt="/" responsive="true" />
+          <Image src={img2}  responsive="true" />
               </div>
           </div>
       </section>

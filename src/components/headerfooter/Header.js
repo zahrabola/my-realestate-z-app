@@ -5,7 +5,9 @@
 //import { FaBeer } from 'react-icons/fa';
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import {nav} from "../data/Data";
+import {nav, login} from "../data/Data";
+
+
 import "./header.css"
 
 const Header = () => {
@@ -30,14 +32,17 @@ const Header = () => {
           <ul className={listNav ? "small" : "flex"}>
             {nav.map((navlist, index) => (
               <li key={index}>
-                <Link to={navlist}>{navlist.text}</Link>
+                <Link to={navlist.path}>{navlist.text}</Link>
               </li>
             ))}
             <div className="container-btn ">
-              <button className="singin-btn">
-                Sign in
-                {/* <FaSignInAlt /> */}
-              </button>
+              {login.map((log, i) => (
+                 <Link to={log.path}>
+                <button className="singin-btn" key={i}>
+                 {log.text}
+                </button>
+                </Link>
+              ))}
             </div>
           </ul>
         </div>

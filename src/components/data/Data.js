@@ -24,7 +24,15 @@ export const nav = [
       text: "contact",
       path: "/contact",
     },
+ 
   ]
+  export const login =[
+    {
+      text: "signin",
+      path: "/signin",
+    },
+  ]
+
   export const featured = [
     {
       icon: <i className="fa fa-home"></i>,

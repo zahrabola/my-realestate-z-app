@@ -28,12 +28,14 @@
     transition: 0.5s;
     font-weight: 500;
 }
+
 .singin-btn{
     border-radius: 5px;
     padding: 10px;
     background-color:  rgb(59, 112, 109);  
     color: aliceblue;
     border: #fff;
+    cursor: pointer;
 }
 .heardes-info .toggle{
     display: none;

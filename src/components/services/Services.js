@@ -3,8 +3,9 @@
 const Services = () => {
     return(
         <div>
+         about info 
+           services
             back
-            feature card
         </div>
     )
 }

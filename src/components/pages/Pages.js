@@ -8,6 +8,8 @@ import Blog from "../blog/Blog";
 import Pricing from "../pricing/Pricing";
 import Contact from "../contact/Contact";
 import SignIn from "../signin/SignIn";
+import Register from "../signin/Register";
+import Login from "../signin/Login";
 
 
 const Pages = () => {
@@ -20,6 +22,8 @@ const Pages = () => {
             <Route exact path="/" component={Home}/>
              <Route exact path="/signin" component={SignIn}/>
             <Route exact path="/about" component={About} />
+            <Route exact path="/register" component={Register } />
+            <Route exact path="/login" component={Login } />
             <Route exact path="/services" component={Services}/>
             <Route exact path="/blog" component={Blog}/>
             <Route exact path="/pricing" component={Pricing}/>

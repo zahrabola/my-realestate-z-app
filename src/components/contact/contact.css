@@ -20,9 +20,18 @@
     padding: 10px;
     
   }
+
   .contact form {
     padding: 30px;
   }
+  .singin-btn{
+    border-radius: 5px;
+    padding: 10px;
+    background-color:  rgb(59, 112, 109);  
+    color: aliceblue;
+    border: #fff;
+    cursor: pointer;
+}
   @media screen and (max-width: 768px) {
     .contact h4 {
       width: 100%;

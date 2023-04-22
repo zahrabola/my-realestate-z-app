@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 120vh;
     width: 100%;
 }
 .hero .hero-container{
@@ -18,7 +18,7 @@
     color: #222020
   }
   .form-flex{
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 5px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -53,18 +53,22 @@
   form h4 {
     font-weight: 500;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
 .hero .hero-container{
     padding-top:30%;
+ 
 }
 .form-flex{
-    display: flex;
+
     flex-wrap: wrap;
+   
 }
 form .box {
     border-left: none;
   }
   form input {
     width: 100%;
+  
+  
   }
   }
